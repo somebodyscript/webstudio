@@ -172,10 +172,6 @@
     margin-left: 130px;
 }
 
-.img {
-    margin-right: 30px;
-}
-
 .img2 {
     height: 260px;
     width: 270px;
@@ -460,4 +456,27 @@ button {
     border: 1px solid #0000001A;
     border-radius: 5px;
     background-color: #FFFFFF;
+}
+
+.imgtext {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: -70px;
+    background-image: url(./bg.png);
+    height: 70px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.img {
+    margin-right: 30px;
+    position: relative;
+    z-index: 0;
 }
